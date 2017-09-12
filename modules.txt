@@ -1,0 +1,32 @@
+puppet module search nano
+
+puppet module install cornfeedhobo-nano
+
+puppet module list
+
+site.pp
+
+node default {
+class 'nano':
+}
+
+}
+
+
+
+
+
+
+
+
+=====
+
+[root@puppetclient11 modules]# puppet module install cornfeedhobo-nano
+Notice: Preparing to install into /etc/puppet/modules ...
+Notice: Downloading from https://forgeapi.puppetlabs.com ...
+Notice: Installing -- do not interrupt ...
+/etc/puppet/modules
++-- cornfeedhobo-nano (v0.1.0)
+  +-- puppetlabs-stdlib (v4.18.0)
+
+
